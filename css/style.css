@@ -268,7 +268,7 @@ to {
   }
   
   .card {
-    flex: 1 1 30%; /* shrink width to fit 3 per row */
+    flex: 1 1 calc(50% - 15px); /* 2 per row */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     border-radius: 8px;
     transition: 0.3s ease;
@@ -369,3 +369,59 @@ to {
   
 
   
+
+/* ---------- Added Nov 2026: skills, card links, timeline links ---------- */
+#experience, #skills, #projects { scroll-margin-top: 100px; }
+
+.skills-section {
+  margin-top: 80px;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.skill-group {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px 18px;
+}
+.skill-group h5 {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.skill-tag {
+  display: inline-block;
+  background-color: #292929;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin: 0 6px 8px 0;
+}
+
+.card h6 { color: #555; }
+.card-link,
+.timeline-content a {
+  color: #292929;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.card-link:hover,
+.timeline-content a:hover { color: #0a66c2; }
+
+/* Timeline stacks on small screens */
+@media only screen and (max-width: 768px) {
+  .timeline::after { left: 20px; }
+  .timeline-item { width: 100%; padding-left: 50px; padding-right: 10px; }
+  .timeline-item.right { left: 0; }
+  .timeline-item::after,
+  .timeline-item.right::after { left: 10px; right: auto; }
+}
+
+/* Dark mode for new elements */
+.dark-mode .skill-group,
+.dark-mode .timeline-content { background-color: #1e1e1e; }
+.dark-mode .skill-tag { background-color: #444; }

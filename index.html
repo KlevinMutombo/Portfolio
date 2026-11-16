@@ -18,7 +18,8 @@
     }
     </style>
 
-    <title>Klevin Mutombo Website</title>
+    <title>Klevin Mutombo | Software Engineering Portfolio</title>
+    <meta name="description" content="Klevin Mutombo – Software Engineering student at the University of Ottawa and Software Developer co-op at Statistics Canada. Creator of Momenta.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
 	<!--- Bootstrap 5 CSS link --->
@@ -33,7 +34,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"></script>
 
     
     
@@ -52,7 +52,9 @@
               <li><a href="#home"><span>Home</span></a></li>
               <li><a href="#about"><span>About Me</span></a></li>
               <li><a href="#work"><span>About My Work</span></a></li>
-              <li><a href="#My Projects"><span>Upcoming Projects</span></a></li>
+              <li><a href="#experience"><span>Experience</span></a></li>
+              <li><a href="#skills"><span>Skills</span></a></li>
+              <li><a href="#projects"><span>Projects</span></a></li>
               <li><a href="#contactme"><span>Contact Me</span></a></li>
             </ul>
           </div>
@@ -93,55 +95,73 @@
         <div class="container">
           <h2>About Me</h2>
           <p>
-            I'm Klevin Mutombo, a bilingual Software Engineering student at the University of Ottawa with a strong interest in front-end development and user-centered design. I thrive at the intersection of code and creativity — using tools like HTML, CSS, JavaScript, and React to build clean, responsive, and accessible interfaces.
+            I'm Klevin Mutombo, a bilingual (English/French) Software Engineering student at the University of Ottawa (expected May 2028). I like building things end to end, from the database and auth layer up to a clean, responsive interface, and I care about code that is tested, readable, and easy for a team to maintain.
           </p>
           <p>
-            Through my co-op at Statistics Canada, I developed Python automation scripts and handled complex geospatial datasets using ArcGIS. As a Web Developer with the Telfer Business Technology Association, I’ve contributed to fully deployed websites from scratch and collaborated across teams to deliver scalable, tested solutions.
+            I'm currently a <strong>Software Developer (Co-op) at Statistics Canada</strong>, where I migrate legacy SAS pipelines to Python and R with test-driven development, built a 5-stage LLM-agent pipeline that drafts and validates SAS-to-Python conversions, and sped up a core workflow about 13x (134 s → 10 s). Before that, I spent two co-op terms there as a Geomatics Analyst automating spatial workflows with ArcPy, and a year as the full-stack web developer for the Telfer Business Technology Association.
           </p>
           <p>
-            Whether I'm working on Android apps like <strong>Attendly</strong> or websites like <strong>Alterum</strong>, I always bring a user-first mindset, a passion for learning, and a commitment to clean, maintainable code.
+            Outside of work, I launched <strong>Momenta</strong> (<a href="https://momentafocus.com" target="_blank" rel="noopener">momentafocus.com</a>), a gamified focus app built with Next.js, React Native and Supabase, and built <strong>Recipe Hero</strong> with a team of four in 24 hours at a hackathon.
           </p>
         </div>
       </section>
 
-      <section class="timeline-section">
+      <section id="experience" class="timeline-section">
         <div class="container">
           <h3 class="text-center mb-5">My Experience</h3>
           <div class="timeline">
             <div class="timeline-item left">
               <div class="timeline-content">
-                <h4>Sept 2023</h4>
-                <p>Started Software Engineering at the University of Ottawa.</p>
+                <h4>May 2026 – Present</h4>
+                <p><strong>Software Developer (Co-op)</strong> at Statistics Canada: migrating 14 legacy SAS pipelines to Python &amp; R with test-driven development, building an LLM-agent SAS-to-Python conversion pipeline, and speeding up a core workflow ~13x.</p>
               </div>
             </div>
             <div class="timeline-item right">
               <div class="timeline-content">
-                <h4>Nov 2023</h4>
-                <p>Completed <strong>Alterum</strong>, a responsive product website using HTML, CSS & JavaScript.</p>
+                <h4>2026 – Present</h4>
+                <p>Launched <strong>Momenta</strong> (<a href="https://momentafocus.com" target="_blank" rel="noopener">momentafocus.com</a>) solo: a gamified focus app with XP, sessions, leaderboard &amp; calendar, built on Next.js, React Native &amp; Supabase.</p>
               </div>
             </div>
             <div class="timeline-item left">
               <div class="timeline-content">
-                <h4>Dec 2024</h4>
-                <p>Built <strong>Attendly</strong>, an Android event management app using Java & Firebase.</p>
-              </div>
-            </div>
-            <div class="timeline-item right">
-              <div class="timeline-content">
-                <h4>Jan – Apr 2025</h4>
-                <p>Worked as a Geomatics Analyst (Co-op) at Statistics Canada using ArcGIS & Python.</p>
-              </div>
-            </div>
-            <div class="timeline-item left">
-              <div class="timeline-content">
-                <h4>June 2024 – June 2025</h4>
-                <p>Web Developer at the Telfer Business Technology Association — building full-stack websites.</p>
+                <h4>Jan 2026</h4>
+                <p>Built <strong>Recipe Hero</strong> at a hackathon: a full-stack Next.js/TypeScript app shipped in 24 hours with a team of 4, using the Gemini &amp; YellowCake APIs.</p>
               </div>
             </div>
             <div class="timeline-item right">
               <div class="timeline-content">
                 <h4>Sept – Dec 2025</h4>
-                <p>Worked as a Geomatics Analyst (Co-op) at Statistics Canada using ArcGIS & Python after receiving return offer.</p>
+                <p>Returned to Statistics Canada as a <strong>Geomatics Analyst, GIS Automation (Co-op)</strong> after a return offer: verified 2,500+ building records and cut manual data prep time by 35% with ArcGIS, SAS &amp; Python.</p>
+              </div>
+            </div>
+            <div class="timeline-item left">
+              <div class="timeline-content">
+                <h4>Jan – Apr 2025</h4>
+                <p><strong>Geomatics Analyst, GIS Automation (Co-op)</strong> at Statistics Canada: automated 8 spatial workflows with ArcPy, cutting processing from 3 hours to 20 minutes per cycle.</p>
+              </div>
+            </div>
+            <div class="timeline-item right">
+              <div class="timeline-content">
+                <h4>Dec 2024</h4>
+                <p>Built <strong>Attendly</strong>, an Android event management app using Java &amp; Firebase.</p>
+              </div>
+            </div>
+            <div class="timeline-item left">
+              <div class="timeline-content">
+                <h4>June 2024 – June 2025</h4>
+                <p><strong>Full-Stack Web Developer</strong> at the Telfer Business Technology Association: built and deployed the association's website from scratch.</p>
+              </div>
+            </div>
+            <div class="timeline-item right">
+              <div class="timeline-content">
+                <h4>Nov 2023</h4>
+                <p>Completed <strong>Alterum</strong>, a responsive product website using HTML, CSS &amp; JavaScript.</p>
+              </div>
+            </div>
+            <div class="timeline-item left">
+              <div class="timeline-content">
+                <h4>Sept 2023</h4>
+                <p>Started Software Engineering at the University of Ottawa (admission scholarship recipient).</p>
               </div>
             </div>
           </div>
@@ -152,16 +172,49 @@
         <div class="container">
           <h2>About my work</h2>
           <p>
-            As an aspiring software engineer and developer, I’m learning and applying user-centered design practices through both coursework and personal projects. While I’m still building professional experience in UX/UI design, I’ve already had the opportunity to apply important design principles in my team projects.
+            A few of the projects I've built, from a product I launched and run myself to hackathon and team builds. Each one taught me something different about shipping software people actually use.
           </p>
       
           <!-- Flex row container -->
           <div class="card-row">
             
-            <!-- Card 1 -->
+            <!-- Card 1: Momenta -->
             <div class="card">
               <div class="container">
-                <h4><b>Attendly – Event Attendance Management System</b></h4> 
+                <h4><b>Momenta – Gamified Focus App</b></h4>
+                <h6>Next.js, React Native, Supabase (Postgres, Auth, RLS), Vercel | 2026 – Present</h6>
+                <p>
+                  A gamified productivity app I built and launched solo at <a href="https://momentafocus.com" target="_blank" rel="noopener">momentafocus.com</a>:
+                  <ul>
+                    <li>XP &amp; leveling, focus sessions, leaderboard and calendar</li>
+                    <li>10 tables secured with Supabase Row-Level Security policies covering 4 user data types</li>
+                    <li>Password recovery, two-step email changes and OAuth linking across 3 auth flows</li>
+                  </ul>
+                  <a href="https://momentafocus.com" target="_blank" rel="noopener" class="card-link">Visit Momenta →</a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2: Recipe Hero -->
+            <div class="card">
+              <div class="container">
+                <h4><b>Recipe Hero – Hackathon Project</b></h4>
+                <h6>Next.js, React, TypeScript, Gemini API, YellowCake API | Jan 2026</h6>
+                <p>
+                  Full-stack recipe generator built in 24 hours with a team of 4:
+                  <ul>
+                    <li>Shipped 6 working features in a single weekend</li>
+                    <li>Gemini &amp; YellowCake APIs generate recipes for 4 diets (high-protein, vegan, keto, low-calorie)</li>
+                    <li>Responsive Ant Design UI tested on 3 screen sizes</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 3: Attendly -->
+            <div class="card">
+              <div class="container">
+                <h4><b>Attendly – Event Attendance Management System</b></h4>
                 <h6>Android App | Android Studio, Firebase, Java</h6>
                 <p>
                   Collaborated on a mobile app for Attendees, Organizers, and Admins. Focused on:
@@ -170,80 +223,99 @@
                     <li>Input validation and real-time feedback</li>
                     <li>Prototyping with emulators and unit testing</li>
                   </ul>
-                  Gained experience designing responsive layouts and streamlining complex user interactions.
-                </p>
-              </div>
-            </div>
-      
-            <!-- Card 2 -->
-            <div class="card">
-              <div class="container">
-                <h4><b>Alterum – Product Promo Website</b></h4> 
-                <h6>HTML, CSS, JavaScript</h6>
-                <p>
-                  Front-end project focused on visual clarity and usability:
-                  <ul>
-                    <li>Built mobile-first layout with Bootstrap grid & custom CSS</li>
-                    <li>Improved pricing section visual hierarchy</li>
-                    <li>Conducted live user testing to refine UX</li>
-                  </ul>
-                  Learned the importance of accessibility and clean styling.
                 </p>
               </div>
             </div>
 
-            <!-- Card 3 -->
+            <!-- Card 4: Alterum -->
             <div class="card">
               <div class="container">
-                <h4><b>Ongoing Learning</b></h4> 
-                <h6>UI/UX Studies SEG3525 | University of Ottawa</h6>
+                <h4><b>Alterum – Product Promo Website</b></h4>
+                <h6>HTML, CSS, JavaScript</h6>
                 <p>
-                  Currently deepening my UI/UX design knowledge by studying:
+                  Front-end project focused on visual clarity and usability:
                   <ul>
-                    <li>User-Centered Design</li>
-                    <li>Heuristic Evaluation</li>
-                    <li>Wireframing & Prototyping (Figma)</li>
-                    <li>Accessibility best practices</li>
+                    <li>Built mobile-first layout with Bootstrap grid &amp; custom CSS</li>
+                    <li>Improved pricing section visual hierarchy</li>
+                    <li>Conducted live user testing to refine UX</li>
                   </ul>
-                  Also learning from resources like NN/g and the Google UX Design Certificate.
                 </p>
               </div>
             </div>
-      
+
           </div> <!-- end of card-row -->
       
         </div>
       </section>
 
-      <section id="Upcoming Projects" class="projects-section">
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2>Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h5>Languages</h5>
+              <div><span class="skill-tag">Python</span><span class="skill-tag">TypeScript</span><span class="skill-tag">JavaScript</span><span class="skill-tag">Java</span><span class="skill-tag">C</span><span class="skill-tag">SQL</span><span class="skill-tag">R</span><span class="skill-tag">HTML/CSS</span></div>
+            </div>
+            <div class="skill-group">
+              <h5>Frameworks &amp; Libraries</h5>
+              <div><span class="skill-tag">React</span><span class="skill-tag">Next.js</span><span class="skill-tag">React Native</span><span class="skill-tag">Node.js</span><span class="skill-tag">SQLAlchemy</span><span class="skill-tag">Pandas</span><span class="skill-tag">Polars</span></div>
+            </div>
+            <div class="skill-group">
+              <h5>Cloud, DevOps &amp; Databases</h5>
+              <div><span class="skill-tag">Docker</span><span class="skill-tag">Git</span><span class="skill-tag">GitLab</span><span class="skill-tag">GitHub</span><span class="skill-tag">Linux</span><span class="skill-tag">Vercel</span><span class="skill-tag">PostgreSQL (Supabase)</span><span class="skill-tag">REST APIs</span></div>
+            </div>
+            <div class="skill-group">
+              <h5>Testing &amp; Data</h5>
+              <div><span class="skill-tag">pytest</span><span class="skill-tag">JUnit</span><span class="skill-tag">ArcPy</span><span class="skill-tag">ArcGIS</span><span class="skill-tag">SAS</span><span class="skill-tag">Excel</span><span class="skill-tag">Google Sheets</span></div>
+            </div>
+            <div class="skill-group">
+              <h5>AI &amp; Automation</h5>
+              <div><span class="skill-tag">Claude Code</span><span class="skill-tag">MCP</span><span class="skill-tag">GitHub Copilot</span><span class="skill-tag">ChatGPT</span><span class="skill-tag">Google Gemini API</span><span class="skill-tag">LLM agents</span></div>
+            </div>
+            <div class="skill-group">
+              <h5>Design</h5>
+              <div><span class="skill-tag">Figma</span><span class="skill-tag">Canva</span><span class="skill-tag">wireframing</span><span class="skill-tag">UI mockups</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
         <div class="container text-center">
           <h2 class="mb-4">My Projects</h2>
-          <p class="mb-5">Fun Projects I've worked on!</p>
+          <p class="mb-5">Live projects I've built. Click to visit!</p>
           
           <div class="row justify-content-center">
+            <!-- Momenta -->
+            <div class="col-6 col-md-4 col-lg mb-4">
+              <a href="https://momentafocus.com" target="_blank" rel="noopener" class="project-circle">
+                <img src="images/momenta.svg" alt="Momenta" />
+                <p>Momenta</p>
+              </a>
+            </div>
             <!-- Design 1 -->
-            <div class="col-6 col-md-3 mb-4">
+            <div class="col-6 col-md-4 col-lg mb-4">
               <a href="https://vitropro.netlify.app/" class="project-circle">
                 <img src="images/Servicesite.png" alt="Service Site" />
                 <p>Service Site</p>
               </a>
             </div>
             <!-- Design 2 -->
-            <div class="col-6 col-md-3 mb-4">
+            <div class="col-6 col-md-4 col-lg mb-4">
               <a href="https://pathplay.netlify.app/" class="project-circle">
                 <img src="images/Game.png" alt="Mini Game" />
                 <p>Mini Game</p>
               </a>
             </div>
             <!-- Design 3 -->
-            <div class="col-6 col-md-3 mb-4">
+            <div class="col-6 col-md-4 col-lg mb-4">
               <a href="https://ryanairekicks.netlify.app/" class="project-circle">
                 <img src="images/ecommercee.png" alt="E-commerce" />
                 <p>E-Commerce</p>
               </a>
             </div>
             <!-- Design 4 -->
-            <div class="col-6 col-md-3 mb-4">
+            <div class="col-6 col-md-4 col-lg mb-4">
               <a href="https://mytablestats.netlify.app/" class="project-circle">
                 <img src="images/analytics.png" alt="BI Dashboard" />
                 <p>Analytics Dashboard</p>
@@ -258,7 +330,7 @@
             <h2 class="mb-4">Contact Me</h2>
             <div class="d-flex justify-content-center flex-wrap gap-3">
                 <!-- CV -->
-                <a href="./docs/Resume2026Final.pdf" target="_blank" class="contact-button">
+                <a href="./docs/KlevinMutombo_Resume.pdf" target="_blank" class="contact-button">
                     <i class="fa fa-file-text"></i> CV
                 </a>
                 <!-- Email -->
@@ -300,7 +372,7 @@ function myFunction() {
       
 
 <footer class="text-center py-3" style="background-color: #f8f9fa; color: #6c757d; font-size: 14px;">
-  &copy; 2025 Klevin Mutombo. All rights reserved.
+  &copy; 2026 Klevin Mutombo. All rights reserved.
 </footer>
 
 </body>
